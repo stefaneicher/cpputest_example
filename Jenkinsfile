@@ -12,7 +12,7 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '20'))
         disableConcurrentBuilds()
     }
-    agent {label 'CMake'}remo
+    agent {label 'CMake'}
 
     stages {
         stage('build  ') {
