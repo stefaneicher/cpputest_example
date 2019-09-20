@@ -12,14 +12,12 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '20'))
         disableConcurrentBuilds()
     }
-    agent {label 'CMake'}
+    agent {label 'CMake'}remo
 
     stages {
         stage('build  ') {
             steps {
-                dir("scripts") {
-                    bat "build.cmd"
-                }
+                bat "build.cmd"
             }
         }
     }
