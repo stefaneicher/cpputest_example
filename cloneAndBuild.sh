@@ -3,7 +3,6 @@
 start=`date +%s`
 
 cd ..
-ls -ls
 dir=cpputest_example
 rm -r $dir
 git clone https://github.com/stefaneicher/cpputest_example.git $dir
