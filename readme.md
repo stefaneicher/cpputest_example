@@ -104,3 +104,6 @@ user    0m9.525s
 sys     0m1.996s
 
 ```
+
+# Local run on Windows
+TODO
