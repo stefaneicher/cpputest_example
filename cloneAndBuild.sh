@@ -2,11 +2,10 @@
 
 start=`date +%s`
 
-
-#cd ..
-dir=cpputest_example2
-rm -r $dir
 cd ..
+ls -ls
+dir=cpputest_example
+rm -r $dir
 git clone https://github.com/stefaneicher/cpputest_example.git $dir
 cd $dir
 
