@@ -5,7 +5,7 @@ bash <(curl -s https://raw.githubusercontent.com/stefaneicher/cpputest_example/m
 ```
 
 ```console
-bash <(curl -s https://raw.githubusercontent.com/stefaneicher/cpputest_example/master/cloneAndBuildINDockerTimed.sh)
+bash <(curl -s https://raw.githubusercontent.com/stefaneicher/cpputest_example/master/cloneAndBuildInDockerTimed.sh)
 ```
 
 # Travis build example <10s:
