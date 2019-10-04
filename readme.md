@@ -263,3 +263,11 @@ MBP:cpputest_example stefaneicher$
 
 # Local run on Windows
 TODO
+
+## Remote Build in Docker
+# Preferences | Build, Execution, Deployment  | Toolchains
+ssh://debugger@localhost:7776
+user: debugger
+password: pwd
+
+# Preferences | Build, Execution, Deployment  | Toolchains
