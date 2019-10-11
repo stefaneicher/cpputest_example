@@ -1,1 +1,1 @@
-C:\YPM\Cygwin\32\YSP000001\010000\ApplicationData\bin\bash.exe -l -c "cd %CD:\=/%/;  rm -r build; mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' ..; cmake --build .. --target all -- -j 4; ../tests/pythagorean_ut/pythagorean_ut"
+C:\YPM\Cygwin\32\YSP000001\010000\ApplicationData\bin\bash.exe -l -c "cd %CD:\=/%/;  rm -r build; mkdir build; cd build; cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' ..; cmake --build .. --target all -- -j 4; ./tests/pythagorean_ut/pythagorean_ut"
