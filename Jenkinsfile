@@ -1,10 +1,3 @@
-// Jenkins:
-// http://pc408108:8080/job/Blinky_WIN_nighlty_Stefan_multibranch_pipeline/
-// http://eswd-bs-001:8080/job/Blinky_WIN_nighlty_Stefan_multibranch_pipeline2/
-
-//TFS:
-// https://tfs.ypsomed.com/SAN_Sandbox/SAN_ContinuousIntegrationWithJenkins/_build
-// https://tianyi04/SAN_Sandbox/SAN_ContinuousIntegrationWithJenkins/_build
 pipeline {
 
     options {
@@ -17,7 +10,7 @@ pipeline {
     stages {
         stage('build  ') {
             steps {
-                bat "build.cmd"
+                bat "buildTimed.cmd"
             }
         }
     }
