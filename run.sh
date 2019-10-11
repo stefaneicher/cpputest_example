@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-rm -r cmake-build-debug
-mkdir cmake-build-debug
-cd cmake-build-debug
+rm -r build
+mkdir build
+cd build
 
 cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" ..
 
