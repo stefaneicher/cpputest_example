@@ -1,26 +1,31 @@
 # CppUTest Example
 
 # Performance Measurements on Revision 48581f5c
-Measured by running run.sh on Mac buildTimed.cmd on Windows
+Measured by running runTimed.sh or runInDockerTimed.sh on Linux and Mac, buildTimed.cmd on Windows
 
 | Computer                         | Measurements -j4         | Measurements -j2  | Measurements -j1 | 
 | -------------------------------- |:----------------:|:-------------------------:|:----------------:|
-| Dell         - Cygwin            | 311s, 249s, 291s,        | 407s              |                  |
-| Mac Book Pro - native AppleClang | 4,1s, 4,04s              | 5,9s              | 9,2s             |
-| Yoga         - Cygwin            | 31s, 31s, 32s            | 35s               | 45s              |
+| Dell          - Cygwin           | 311s, 249s, 291s,        | 407s              |                  |
+| HP Elitebook  - Cygwin           | 272s 277s                |                   |                  |
+| Lenovo X1     - Native           | 7.4s, 7,7s               |                   |      17s         |
+| Lenovo X1     - Native mit Strom | 4,2s, 4,6                |                   |      6,2         |
+| Lenovo X1     - Docker mit Strom | 3,9s                     |                   |      10,7s       |
+| Mac Book Pro - native AppleClang | 4,1s, 4,04s              | 5,9s              |      9,2s        |
+| Yoga         - Cygwin            | 31s, 31s, 32s            | 35s               |      45s         |
 | Jenkins      - Cygwin            | 181s, 168s, 173s, 170s   |
 | Mac Book Pro - Docker GCC        | 23s, 19s,19s             |
 | Mac Book Pro - Docker Clang 9    | 20s                      |
-| Linux TODO                    |                          |
 | Windows and VisualStudio TODO    |                          |
 
  
-| Computer        | CPU                   | RAM  | OS          |
-| --------------- |:--------------------- | ----:|------------:|
-|Dell             | Intel-Core-i5-6300U   | 8GB  | Win 8.1     |
-|Jenkins          | Intel-Core-i5-6600    | 4GB  | Win 8.1     |
-|Mac Book Pro     | Intel-Core-i7-7700HQ  | 16GB | OS X        |
-|Yoga             | Intel-Core-i7-7500U   | 8GB  | Win 10 Home |
+| Computer           | CPU                   | RAM  | OS          |
+| -------------------|:--------------------- | ----:|------------:|
+|Dell                | Intel-Core-i5-6300U   | 8GB  | Win 8.1     |
+|Jenkins             | Intel-Core-i5-6600    | 4GB  | Win 8.1     |
+|Mac Book Pro        | Intel-Core-i7-7700HQ  | 16GB | OS X        |
+|Yoga                | Intel-Core-i7-7500U   | 8GB  | Win 10 Home |
+|HP Elitebook Win10  | Intel-Core-i7 7600U   | 16GB | Win 10 Enterprise |
+|Lenovo X1           | Intel-Core-i7 8550U   | 16GB | Linux Manjaro |
 
 
 - https://cpu.userbenchmark.com/Compare/Intel-Core-i7-7700HQ-vs-Intel-Core-i5-6300U/m211019vsm27864
