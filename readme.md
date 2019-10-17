@@ -6,7 +6,7 @@ Measured by running runTimed.sh or runInDockerTimed.sh on Linux and Mac, buildTi
 | Computer                         | Measurements -j4         | Measurements -j2  | Measurements -j1 | 
 | -------------------------------- |:----------------:|:-------------------------:|:----------------:|
 | Dell          - Cygwin           | 311s, 249s, 291s,        | 407s              |                  |
-| HP Elitebook  - Cygwin           | 272s 277s                |                   |                  |
+| HP Elitebook  - Cygwin           | 272s, 277s                |                   |                  |
 | Lenovo X1     - Native           | 7.4s, 7,7s               |                   |      17s         |
 | Lenovo X1     - Native mit Strom | 4,2s, 4,6                |                   |      6,2         |
 | Lenovo X1     - Docker mit Strom | 3,9s                     |                   |      10,7s       |
