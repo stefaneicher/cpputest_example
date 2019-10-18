@@ -12,6 +12,8 @@ Measured by running runTimed.sh or runInDockerTimed.sh on Linux and Mac, buildTi
 | Lenovo X1     - Docker mit Strom | 3,9s                     |                   |      10,7s       |
 | Mac Book Pro - native AppleClang | 4,1s, 4,04s              | 5,9s              |      9,2s        |
 | Yoga         - Cygwin            | 31s, 31s, 32s            | 35s               |      45s         |
+| Yoga         - WSL ./runTimed.sh | 12,8s, 12,6 ,12.1 s      | 13,7s, 14.3s      |   20,1s, 20.5s   |
+| Yoga         - WSL run in docker |                          |                   |                  |
 | Jenkins      - Cygwin            | 181s, 168s, 173s, 170s   |
 | Mac Book Pro - Docker GCC        | 23s, 19s,19s             |
 | Mac Book Pro - Docker Clang 9    | 20s                      |
