@@ -6,7 +6,8 @@ Measured by running runTimed.sh or runInDockerTimed.sh on Linux and Mac, buildTi
 | Computer                         | Measurements -j4         | Measurements -j2  | Measurements -j1 | 
 | -------------------------------- |:----------------:|:-------------------------:|:----------------:|
 | Dell          - Cygwin           | 311s, 249s, 291s,        | 407s              |                  |
-| HP Elitebook  - Cygwin           | 272s, 277s                |                   |                  |
+| HP Elitebook 1040G4 - Cygwin     | 272s, 277s               |                   |                  |
+| HP Elitebook 840G6  - Cygwin     |  323s, 298s ohne Strom 180s mit strom        |                   |                  |
 | Lenovo X1     - Native           | 7.4s, 7,7s               |                   |      17s         |
 | Lenovo X1     - Native mit Strom | 4,2s, 4,6                |                   |      6,2         |
 | Lenovo X1     - Docker mit Strom | 3,9s                     |                   |      10,7s       |
@@ -20,14 +21,15 @@ Measured by running runTimed.sh or runInDockerTimed.sh on Linux and Mac, buildTi
 | Windows and VisualStudio TODO    |                          |
 
  
-| Computer           | CPU                   | RAM  | OS          |
-| -------------------|:--------------------- | ----:|------------:|
-|Dell                | Intel-Core-i5-6300U   | 8GB  | Win 8.1     |
-|Jenkins             | Intel-Core-i5-6600    | 4GB  | Win 8.1     |
-|Mac Book Pro        | Intel-Core-i7-7700HQ  | 16GB | OS X        |
-|Yoga                | Intel-Core-i7-7500U   | 8GB  | Win 10 Home |
-|HP Elitebook Win10  | Intel-Core-i7 7600U   | 16GB | Win 10 Enterprise |
-|Lenovo X1           | Intel-Core-i7 8550U   | 16GB | Linux Manjaro |
+| Computer                  | CPU                   | RAM  | OS          |
+| ------------------       -|:--------------------- | ----:|------------:|
+|Dell                       | Intel-Core-i5-6300U   | 8GB  | Win 8.1     |
+|Jenkins                    | Intel-Core-i5-6600    | 4GB  | Win 8.1     |
+|Mac Book Pro               | Intel-Core-i7-7700HQ  | 16GB | OS X        |
+|Yoga                       | Intel-Core-i7-7500U   | 8GB  | Win 10 Home |
+|HP Elitebook Win10 1040G4  | Intel-Core-i7 7600U   | 16GB | Win 10 Enterprise |
+|HP Elitebook Win10 840G6   | Intel-Core-i7 8665U   | 16GB | Win 10 Enterprise |
+|Lenovo X1                  | Intel-Core-i7 8550U   | 16GB | Linux Manjaro |
 
 
 - https://cpu.userbenchmark.com/Compare/Intel-Core-i7-7700HQ-vs-Intel-Core-i5-6300U/m211019vsm27864
